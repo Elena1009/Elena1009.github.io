@@ -1,0 +1,81 @@
+/* *{
+outline: 1px solid red 
+} */  /*обводка блоков красной рамкой*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Ubuntu:300,400,700');
+
+.main-nav{
+    margin-top: 40px;
+}
+.main-menu{
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+    /* font-size: 0; */
+    text-align: center;
+    /* background: #ac046c; */
+    font-family: 'Playfair Display SC', serif;
+}
+.main-menu-item{
+    list-style: none; /* убирает маркер */
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 16;
+    width: 15%; 
+}
+.main-menu-link{
+    text-transform: uppercase;   /*преобразует в заглавные буквы*/
+    text-decoration: none;/*убирает нижне подчеркиваие ссылок*/
+    color: #626262;
+}
+.main-menu-link:hover{
+    color: #03a9f4;
+}
+
+.wrapper{
+    width: 900px;
+    margin: auto;
+    /* background: #04ac9e; */
+    /* text-align: justify; */
+}
+.picturer{
+    /* font-size: 0px; */
+    display: inline-block; /*делает в строку*/
+    vertical-align: top; /*выравнивает по вертикали*/
+    /* margin: 104px 31px 20px 150px; */
+    margin: auto;
+    width: 420px;
+    text-align: left; /*выравнивает текст к левому краю. хотя и без него он по левому краю*/
+    /* position: ; */
+    margin-top: 60px;
+}
+.right{
+    margin-left: 56px;
+}
+
+/*размер фото 420px*2шт=840px - ширина .wraper 900px=60px отступ, но нужно учестить(отминусовать) еще 4рх  */
+.category{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b4ad9e;
+}
+.caption{
+    color: #626262;
+    font-family:'Playfair Display SC', serif;
+    font-size: 30px;
+}
+p{font-family:'Playfair Display SC', serif;
+font-size: 14px;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /*центрирования кнопки*/
+}
+/* div{
+    display: inline-block; width: 50%; text-align: center
+}  */
+ /* .picturer{
+    filter:hue-rotate(299deg) sepia(0.5);
+} */
